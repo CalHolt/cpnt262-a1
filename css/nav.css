@@ -3,13 +3,14 @@
   background-color: cadetblue;
   color: white;
   justify-content: space-between;
-  padding: 1rem;
+  padding: 2rem;
+  text-align: center;
 }
 
 .nav-container {
   display: grid;
   grid-template-rows: 0fr;
-  transition: grid-template-rows 500ms ease;
+  transition: grid-template-rows 250ms ease;
 }
 .nav-container.visible {
     grid-template-rows: 1fr;
@@ -18,14 +19,18 @@
 .nav-links {
   overflow: hidden;
   list-style-type: none;
-  padding-left: 0;
  
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 1rem;
 }
 
-@media only screen and (min-width: 600px) {
+a {
+  text-decoration: none;
+  color: white;
+}
+
+@media only screen and (min-width: 40rem) {
   .navigation {
     align-items: center;
   }
