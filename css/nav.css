@@ -30,6 +30,10 @@ a {
   color: white;
 }
 
+.button {
+  text-align: center;
+}
+
 @media only screen and (min-width: 40rem) {
   .navigation {
     align-items: center;
