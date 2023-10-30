@@ -38,7 +38,16 @@ localStorage.setItem("PageTheme", JSON.stringify(theme))
 )
 // create local storage for theme
 let getTheme = JSON.parse(localStorage.getItem("PageTheme"))
-
+// toggle mode depending on where user left off
 if(getTheme === "dark"){
   body.classList.toggle("darkmode")
 }
+
+// ------------BUTTON-NO-REFRESH-ON-CLICK---------------- //
+
+const btn = document.querySelector("#btn")
+
+btn.addEventListener("click", () => {
+  alert("there is no merch on this site, we now know everything about you ahahahaha")
+
+})
