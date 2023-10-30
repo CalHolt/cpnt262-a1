@@ -21,4 +21,24 @@ const body = document.querySelector("body")
 darkButton.addEventListener("click", () => {
   // make elements being triggered have darkmode class
 body.classList.toggle("darkmode")
-})
+
+/* Create ability to keep darkmode on refresh by using local storage */
+
+// create variable for localStorage to pull data from
+let theme;
+// giving theme a name within storage 
+if(body.classList.contains("darkmode")){
+  theme = "dark"
+} else {
+  theme = "light"
+}
+// set local storage
+localStorage.setItem("PageTheme", JSON.stringify(theme))
+}
+)
+// create local storage for theme
+let getTheme = JSON.parse(localStorage.getItem("PageTheme"))
+
+if(getTheme === "dark"){
+  body.classList.toggle("darkmode")
+}
