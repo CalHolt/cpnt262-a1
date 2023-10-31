@@ -1,0 +1,25 @@
+.glr {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+h1 {
+  text-align: center;
+}
+
+img {
+  width: 450px;
+  height: 450px;
+  object-fit: cover;
+}
+
+@media (width < 600px) {
+  img {
+    width: 150px;
+    height: 150px;
+  }
+}

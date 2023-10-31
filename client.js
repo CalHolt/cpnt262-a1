@@ -51,3 +51,16 @@ btn.addEventListener("click", () => {
   alert("there is no merch on this site, we now know everything about you ahahahaha")
 
 })
+
+// ------------GALLERY---------------- //
+
+let galleryImages = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+
+let content = ""
+
+for (const image of galleryImages) {
+  content += `<img src="images/img${image}.jpg ">`
+}
+const gallery = document.querySelector("#gallery-photos");
+
+gallery.innerHTML = content

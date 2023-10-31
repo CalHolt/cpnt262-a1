@@ -6,6 +6,7 @@
   <title>Holt Clothing</title>
   <link rel="stylesheet" href="css/nav.css">
   <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/gallery.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Oswald&display=swap" rel="stylesheet">
@@ -17,8 +18,8 @@
   <nav class="nav-container">
     <ul class="nav-links">
       <li><a href="#">Home</a></li>
-      <li><a href="#gallery">Store</a></li>
-      <li><a href="#">About</a></li>
+      <li><a href="#prefer">Dark Mode</a></li>
+      <li><a href="#gallery">Gallery</a></li>
       <li><a href="#">Contact</a></li>
     </ul>
   </nav>
@@ -26,18 +27,19 @@
     <button id="button">|||</button>
   </div>
 </div>
+<header>
+  <h1>Hello <span id="username"></span></h1>
+  <p>Do you want to check out the latest merch that just arrived? Search through the catalog now</p>
+  <button id="btn">Click Me</button>
+</header>
+<h1 id="prefer">Prefer to scroll on dark mode ?</h1>
 <div class="darkmode-container">
   <input type="checkbox" id="darkmode">
   <label for="darkmode"></label>
 </div>
-  <header>
-    <h1>Hello <span id="username"></span></h1>
-    <p>Do you want to check out the latest merch that just arrived? Search through the catalog now</p>
-    <button id="btn">Click Me</button>
-    
-  </header>
   <main>
     <h1 id="gallery" >Gallery</h1>
+    <div class="glr" id="gallery-photos"></div>
   </main>
   <footer>
     <p>&copy;<strong> 2023 Cal Holt</strong></p>
