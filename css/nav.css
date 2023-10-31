@@ -1,6 +1,6 @@
 .navigation {
   display: flex;
-  background-color: cadetblue;
+  background-color:  #177380;
   color: white;
   justify-content: space-between;
   padding: 1rem;
@@ -30,6 +30,10 @@
 a {
   text-decoration: none;
   color: white;
+}
+
+a:hover {
+  color: #CC4E39;
 }
 
 .button {

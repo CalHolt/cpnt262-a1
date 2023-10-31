@@ -11,7 +11,7 @@ h1 {
   text-align: center;
 }
 
-img {
+.glr img {
   width: 450px;
   height: 450px;
   object-fit: cover;
