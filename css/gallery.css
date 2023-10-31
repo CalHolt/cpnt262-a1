@@ -12,14 +12,8 @@ h1 {
 }
 
 .glr img {
-  width: 450px;
+  width: clamp(200px, 100%, 450px);
   height: 450px;
   object-fit: cover;
 }
 
-@media (width < 600px) {
-  img {
-    width: 150px;
-    height: 150px;
-  }
-}

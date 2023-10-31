@@ -2,6 +2,11 @@ body {
   margin: 0;
   font-size: 22px;
   line-height: 1.5;
+  font-family: 'Source Serif 4', serif;
+}
+
+h1 {
+  font-family: 'Lato', sans-serif;
 }
 
 body.darkmode {
