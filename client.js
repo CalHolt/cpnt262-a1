@@ -1,3 +1,4 @@
+"use strict";
 // -------------NAV-TOGGLE------------------ //
 
 // Creating variable for nav button
